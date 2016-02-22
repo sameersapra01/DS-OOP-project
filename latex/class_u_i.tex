@@ -1,0 +1,408 @@
+\hypertarget{class_u_i}{\section{U\-I Class Reference}
+\label{class_u_i}\index{U\-I@{U\-I}}
+}
+
+
+The purpose of this class is to handle any request made by the user and to handle any input provided.  
+
+
+
+
+{\ttfamily \#include $<$U\-I.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_u_i_a675985a56b5e87ebdc8e5884b9f2ee09}{U\-I} ()
+\begin{DoxyCompactList}\small\item\em Called to instantiate an object of the \hyperlink{class_u_i}{U\-I} class. \end{DoxyCompactList}\item 
+\hyperlink{class_u_i_a1b23d0c64c7cbb3d143d90ec532a7ccd}{$\sim$\-U\-I} ()
+\begin{DoxyCompactList}\small\item\em Called to destruct an object of the \hyperlink{class_u_i}{U\-I} class. \end{DoxyCompactList}\item 
+void \hyperlink{class_u_i_a98dd3c26da7c3b17ee4357d844381846}{main\-\_\-menu} (void)
+\begin{DoxyCompactList}\small\item\em Called to display a menu to the user. \end{DoxyCompactList}\item 
+void \hyperlink{class_u_i_aebf168eede13c3866a4954676894611e}{add\-\_\-student} ()
+\begin{DoxyCompactList}\small\item\em Called to add a new student into the database. \end{DoxyCompactList}\item 
+void \hyperlink{class_u_i_a0e31d80ea80cdf9b1a1284ff2e2a53dd}{search\-\_\-student} ()
+\begin{DoxyCompactList}\small\item\em Called to search the database that contains the students. \end{DoxyCompactList}\item 
+void \hyperlink{class_u_i_a1142e1e6f15e4c3b76ec7059a17217ad}{delete\-\_\-\-Student} ()
+\begin{DoxyCompactList}\small\item\em Called to delete a student from the database that contains the students. \end{DoxyCompactList}\item 
+void \hyperlink{class_u_i_a5f9d0f8ea154b8565f0ae0e1c68211d5}{delete\-\_\-database} ()
+\begin{DoxyCompactList}\small\item\em Called to delete all students from the database that contains the students. \end{DoxyCompactList}\item 
+void \hyperlink{class_u_i_a4fda1ea3638af37950bbaa856d2f3e7f}{display\-\_\-database} ()
+\begin{DoxyCompactList}\small\item\em Called to display all students from the database that contains the students. \end{DoxyCompactList}\item 
+void \hyperlink{class_u_i_a51905fc070480e000a2c800538c1a692}{save\-\_\-in\-\_\-database} (char $\ast$filename)
+\begin{DoxyCompactList}\small\item\em Called to save the database that contains the students into a file. \end{DoxyCompactList}\item 
+void \hyperlink{class_u_i_a8725ee1ec4261c11ac4f6be848897e8b}{create\-\_\-fake\-\_\-data} ()
+\begin{DoxyCompactList}\small\item\em Called to generate random data for a student object. \end{DoxyCompactList}\item 
+bool \hyperlink{class_u_i_a3473cd7249b0b1fbebe2197b1d19281f}{is\-\_\-email\-\_\-valid} (const std\-::string \&email)
+\begin{DoxyCompactList}\small\item\em Called to validate that the email provided by the user is in the right format. \end{DoxyCompactList}\item 
+bool \hyperlink{class_u_i_affa94e63f64b44b5c23585bf6ee673d7}{validate\-\_\-first\-\_\-name} (char $\ast$fname, bool display\-Output)
+\begin{DoxyCompactList}\small\item\em Called to validate that the first name provided by the user is in the right format. \end{DoxyCompactList}\item 
+bool \hyperlink{class_u_i_a43f557bb9be7375662321bb2004e18a0}{validate\-\_\-last\-\_\-name} (char $\ast$last\-\_\-name, bool display\-Output)
+\begin{DoxyCompactList}\small\item\em Called to validate that the last name provided by the user is in the right format. \end{DoxyCompactList}\item 
+bool \hyperlink{class_u_i_af4140703b57720326794d092a98aca42}{validate\-\_\-age} (char $\ast$age, bool display\-Output)
+\begin{DoxyCompactList}\small\item\em Called to validate that the age provided by the user is in the right range. \end{DoxyCompactList}\item 
+int \hyperlink{class_u_i_a4107aca5745c8728f64fb98d5236d2e3}{validate\-\_\-gender} (int gender, bool display\-Output)
+\begin{DoxyCompactList}\small\item\em Called to validate that the gender provided by the user is in the right range. \end{DoxyCompactList}\item 
+bool \hyperlink{class_u_i_a22b503af1e9553884e7b89474060443b}{validate\-\_\-student\-\_\-number} (char $\ast$student\-\_\-number, bool display\-Output)
+\begin{DoxyCompactList}\small\item\em Called to validate that the student number provided by the user is in the right range. \end{DoxyCompactList}\item 
+int \hyperlink{class_u_i_ab7380eca1ba0c732034bb9cb399b44ea}{validate\-\_\-program\-\_\-type} (int prog\-\_\-type, bool display\-Output)
+\begin{DoxyCompactList}\small\item\em Called to validate that the program type provided by the user is in the right range. \end{DoxyCompactList}\item 
+bool \hyperlink{class_u_i_aa250863d60f72a538f4c64dd7c252fc3}{validate\-\_\-program\-\_\-name} (char $\ast$program\-\_\-name, bool display\-Output)
+\begin{DoxyCompactList}\small\item\em Called to validate that the program nmae provided by the user is in the right format. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The purpose of this class is to handle any request made by the user and to handle any input provided. 
+
+File\-Name\-: \hyperlink{_u_i_8h_source}{U\-I.\-h}.
+
+This comment block is {\itshape required} for all class declarations. This is the place where the {\bfseries Class header Comment} appears. \begin{DoxyAuthor}{Author}
+A {\itshape Sekou Diaby, Sameer Sapra}
+\end{DoxyAuthor}
+Project\-: D\-S-\/\-O\-O\-P Project Author\-: Sekou Diaby, Sameer Sapra Date\-: April 18, 2014 Description\-: This program is a menu based system which adds students to a college database. This program more specifically keeps tracks of students in an engineering program. This class contains the menus of the program that will be used to navigate. The purpose of the class is to act as an interfac between the user and the program. The user will only see and used methods from this class. These methods will call other methods in other related classes to perform the desired action of the user. This is the class that will mostly make method calls to validate any input entered by the user. included files disables warnings $<$\#pragma warning used for depricated functions\-::pragma warning(disable\-:4996) 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_u_i_a675985a56b5e87ebdc8e5884b9f2ee09}{\index{U\-I@{U\-I}!U\-I@{U\-I}}
+\index{U\-I@{U\-I}!UI@{U\-I}}
+\subsubsection[{U\-I}]{\setlength{\rightskip}{0pt plus 5cm}U\-I\-::\-U\-I (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_u_i_a675985a56b5e87ebdc8e5884b9f2ee09}
+
+
+Called to instantiate an object of the \hyperlink{class_u_i}{U\-I} class. 
+
+{\bfseries Details}
+
+This method will create a \hyperlink{class_u_i}{U\-I} object which will be used to interface with the user. The method will instantiate all the attributes of the class to a null value.
+
+\begin{DoxyReturn}{Returns}
+Returns nothing since this is a constructor. 
+\end{DoxyReturn}
+\hypertarget{class_u_i_a1b23d0c64c7cbb3d143d90ec532a7ccd}{\index{U\-I@{U\-I}!$\sim$\-U\-I@{$\sim$\-U\-I}}
+\index{$\sim$\-U\-I@{$\sim$\-U\-I}!UI@{U\-I}}
+\subsubsection[{$\sim$\-U\-I}]{\setlength{\rightskip}{0pt plus 5cm}U\-I\-::$\sim$\-U\-I (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_u_i_a1b23d0c64c7cbb3d143d90ec532a7ccd}
+
+
+Called to destruct an object of the \hyperlink{class_u_i}{U\-I} class. 
+
+{\bfseries Details}
+
+This method will destruct a created User Interface object that the user used. The method will free any memory that is used by the object.
+
+\begin{DoxyReturn}{Returns}
+Returns nothing since this is a destructor. 
+\end{DoxyReturn}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_u_i_aebf168eede13c3866a4954676894611e}{\index{U\-I@{U\-I}!add\-\_\-student@{add\-\_\-student}}
+\index{add\-\_\-student@{add\-\_\-student}!UI@{U\-I}}
+\subsubsection[{add\-\_\-student}]{\setlength{\rightskip}{0pt plus 5cm}void U\-I\-::add\-\_\-student (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_u_i_aebf168eede13c3866a4954676894611e}
+
+
+Called to add a new student into the database. 
+
+{\bfseries Details}
+
+This method is called whenever a the user choose to add a new student. It will initialize of the data members of the student that is going to be added. The method itself has its own menu options for the user to choose which data member to set. The user will then be asked to enter input for all the fields of the student object. Once the input is received from the console, the method makes calls to other methods to validate the input. after validation, the methods make a call to a function in the college class with the attributes to the data members of the object.
+
+\begin{DoxyReturn}{Returns}
+Returns nothing. 
+\end{DoxyReturn}
+\hypertarget{class_u_i_a8725ee1ec4261c11ac4f6be848897e8b}{\index{U\-I@{U\-I}!create\-\_\-fake\-\_\-data@{create\-\_\-fake\-\_\-data}}
+\index{create\-\_\-fake\-\_\-data@{create\-\_\-fake\-\_\-data}!UI@{U\-I}}
+\subsubsection[{create\-\_\-fake\-\_\-data}]{\setlength{\rightskip}{0pt plus 5cm}void U\-I\-::create\-\_\-fake\-\_\-data (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_u_i_a8725ee1ec4261c11ac4f6be848897e8b}
+
+
+Called to generate random data for a student object. 
+
+{\bfseries Details}
+
+This method is called whenever a user wants to generate a desired amount of random students that have random data in their fields. It will ask the user to input the number of data and and will loop that number times by calling a function that generates a random student at a time. After, the method will call add student with the specific fields provided.
+
+\begin{DoxyReturn}{Returns}
+Returns nothing. 
+\end{DoxyReturn}
+\hypertarget{class_u_i_a5f9d0f8ea154b8565f0ae0e1c68211d5}{\index{U\-I@{U\-I}!delete\-\_\-database@{delete\-\_\-database}}
+\index{delete\-\_\-database@{delete\-\_\-database}!UI@{U\-I}}
+\subsubsection[{delete\-\_\-database}]{\setlength{\rightskip}{0pt plus 5cm}void U\-I\-::delete\-\_\-database (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_u_i_a5f9d0f8ea154b8565f0ae0e1c68211d5}
+
+
+Called to delete all students from the database that contains the students. 
+
+{\bfseries Details}
+
+This method is called whenever a user wants to delete all students in the database. The method will call the accessor for the database/map in the college class and receive the address of the map for access. Than the function will call a method from the college class to to delete the received database.
+
+\begin{DoxyReturn}{Returns}
+Returns nothing. 
+\end{DoxyReturn}
+\hypertarget{class_u_i_a1142e1e6f15e4c3b76ec7059a17217ad}{\index{U\-I@{U\-I}!delete\-\_\-\-Student@{delete\-\_\-\-Student}}
+\index{delete\-\_\-\-Student@{delete\-\_\-\-Student}!UI@{U\-I}}
+\subsubsection[{delete\-\_\-\-Student}]{\setlength{\rightskip}{0pt plus 5cm}void U\-I\-::delete\-\_\-\-Student (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_u_i_a1142e1e6f15e4c3b76ec7059a17217ad}
+
+
+Called to delete a student from the database that contains the students. 
+
+{\bfseries Details}
+
+This method is called whenever a user wants to delete a student in the database. The method will call the accessor for the database/map in the college class and receive the address of the map for access. Than the function will call a method from the college class to to delete a student from the received database.
+
+\begin{DoxyReturn}{Returns}
+Returns nothing. 
+\end{DoxyReturn}
+\hypertarget{class_u_i_a4fda1ea3638af37950bbaa856d2f3e7f}{\index{U\-I@{U\-I}!display\-\_\-database@{display\-\_\-database}}
+\index{display\-\_\-database@{display\-\_\-database}!UI@{U\-I}}
+\subsubsection[{display\-\_\-database}]{\setlength{\rightskip}{0pt plus 5cm}void U\-I\-::display\-\_\-database (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_u_i_a4fda1ea3638af37950bbaa856d2f3e7f}
+
+
+Called to display all students from the database that contains the students. 
+
+{\bfseries Details}
+
+This method is called whenever a user wants to display all students in the database. The method will call the accessor for the database/map in the college class and receive the address of the map for access. Than the function will call a method from the college class to to display the received database.
+
+\begin{DoxyReturn}{Returns}
+Returns nothing. 
+\end{DoxyReturn}
+\hypertarget{class_u_i_a3473cd7249b0b1fbebe2197b1d19281f}{\index{U\-I@{U\-I}!is\-\_\-email\-\_\-valid@{is\-\_\-email\-\_\-valid}}
+\index{is\-\_\-email\-\_\-valid@{is\-\_\-email\-\_\-valid}!UI@{U\-I}}
+\subsubsection[{is\-\_\-email\-\_\-valid}]{\setlength{\rightskip}{0pt plus 5cm}bool U\-I\-::is\-\_\-email\-\_\-valid (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{email}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_u_i_a3473cd7249b0b1fbebe2197b1d19281f}
+
+
+Called to validate that the email provided by the user is in the right format. 
+
+{\bfseries Details}
+
+This method is called whenever a user has entered an email input. The method will validate the email by using regular expression class. The methods brings in as a parameter the string email to be tested.
+
+\begin{DoxyReturn}{Returns}
+Returns a boolean value that will determine if the email was valid. 
+\end{DoxyReturn}
+\hypertarget{class_u_i_a98dd3c26da7c3b17ee4357d844381846}{\index{U\-I@{U\-I}!main\-\_\-menu@{main\-\_\-menu}}
+\index{main\-\_\-menu@{main\-\_\-menu}!UI@{U\-I}}
+\subsubsection[{main\-\_\-menu}]{\setlength{\rightskip}{0pt plus 5cm}void U\-I\-::main\-\_\-menu (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_u_i_a98dd3c26da7c3b17ee4357d844381846}
+
+
+Called to display a menu to the user. 
+
+{\bfseries Details}
+
+This method is called whenever a user is running the program. It will display a list of menu options to the user to choose from. This function will make calls to other functions depending on that choice of the user. This function will keep looping until the user chooses to exit.
+
+\begin{DoxyReturn}{Returns}
+Returns nothing. 
+\end{DoxyReturn}
+\hypertarget{class_u_i_a51905fc070480e000a2c800538c1a692}{\index{U\-I@{U\-I}!save\-\_\-in\-\_\-database@{save\-\_\-in\-\_\-database}}
+\index{save\-\_\-in\-\_\-database@{save\-\_\-in\-\_\-database}!UI@{U\-I}}
+\subsubsection[{save\-\_\-in\-\_\-database}]{\setlength{\rightskip}{0pt plus 5cm}void U\-I\-::save\-\_\-in\-\_\-database (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{filename}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_u_i_a51905fc070480e000a2c800538c1a692}
+
+
+Called to save the database that contains the students into a file. 
+
+{\bfseries Details}
+
+This method is called whenever a user wants to exit which will automatically save to a file. The method will call the accessor for the database/map in the college class and receive the address of the map for access. Than the function will call a method from the college class to to save the received database to a file.
+
+\begin{DoxyReturn}{Returns}
+Returns nothing. 
+\end{DoxyReturn}
+\hypertarget{class_u_i_a0e31d80ea80cdf9b1a1284ff2e2a53dd}{\index{U\-I@{U\-I}!search\-\_\-student@{search\-\_\-student}}
+\index{search\-\_\-student@{search\-\_\-student}!UI@{U\-I}}
+\subsubsection[{search\-\_\-student}]{\setlength{\rightskip}{0pt plus 5cm}void U\-I\-::search\-\_\-student (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_u_i_a0e31d80ea80cdf9b1a1284ff2e2a53dd}
+
+
+Called to search the database that contains the students. 
+
+{\bfseries Details}
+
+This method is called whenever a user wants to search for a student in the database. The method will call the accessor for the database/map in the college class and receive the address of the map for access. Than the function will call a method from the college class.
+
+\begin{DoxyReturn}{Returns}
+Returns nothing. 
+\end{DoxyReturn}
+\hypertarget{class_u_i_af4140703b57720326794d092a98aca42}{\index{U\-I@{U\-I}!validate\-\_\-age@{validate\-\_\-age}}
+\index{validate\-\_\-age@{validate\-\_\-age}!UI@{U\-I}}
+\subsubsection[{validate\-\_\-age}]{\setlength{\rightskip}{0pt plus 5cm}bool U\-I\-::validate\-\_\-age (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{age, }
+\item[{bool}]{display\-Output}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_u_i_af4140703b57720326794d092a98aca42}
+
+
+Called to validate that the age provided by the user is in the right range. 
+
+{\bfseries Details}
+
+This method is called whenever a user has entered an age input. The method will validate the age through a series of if and else statements. The methods brings in as a parameter the char$\ast$ age to be tested. This will be converted to an int before it is set.
+
+\begin{DoxyReturn}{Returns}
+Returns a boolean value that will determine if the age was valid. 
+\end{DoxyReturn}
+\hypertarget{class_u_i_affa94e63f64b44b5c23585bf6ee673d7}{\index{U\-I@{U\-I}!validate\-\_\-first\-\_\-name@{validate\-\_\-first\-\_\-name}}
+\index{validate\-\_\-first\-\_\-name@{validate\-\_\-first\-\_\-name}!UI@{U\-I}}
+\subsubsection[{validate\-\_\-first\-\_\-name}]{\setlength{\rightskip}{0pt plus 5cm}bool U\-I\-::validate\-\_\-first\-\_\-name (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{fname, }
+\item[{bool}]{display\-Output}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_u_i_affa94e63f64b44b5c23585bf6ee673d7}
+
+
+Called to validate that the first name provided by the user is in the right format. 
+
+{\bfseries Details}
+
+This method is called whenever a user has entered a first name input. The method will validate the first name through a series of if and else statements. The methods brings in as a parameter the char$\ast$ first name to be tested.
+
+\begin{DoxyReturn}{Returns}
+Returns a boolean value that will determine if the first name was valid. 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em display\-Output} & used to check if user wants to display output on the screen. ) \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_u_i_a4107aca5745c8728f64fb98d5236d2e3}{\index{U\-I@{U\-I}!validate\-\_\-gender@{validate\-\_\-gender}}
+\index{validate\-\_\-gender@{validate\-\_\-gender}!UI@{U\-I}}
+\subsubsection[{validate\-\_\-gender}]{\setlength{\rightskip}{0pt plus 5cm}int U\-I\-::validate\-\_\-gender (
+\begin{DoxyParamCaption}
+\item[{int}]{gender, }
+\item[{bool}]{display\-Output}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_u_i_a4107aca5745c8728f64fb98d5236d2e3}
+
+
+Called to validate that the gender provided by the user is in the right range. 
+
+{\bfseries Details}
+
+This method is called whenever a user has entered a gender input. The method will validate the gender through a series of if and else statements. The methods brings in as a parameter an int gender to be tested. each integer represents a specific gender to set.
+
+\begin{DoxyReturn}{Returns}
+Returns an int value that will determine if the age was valid. 
+\end{DoxyReturn}
+\hypertarget{class_u_i_a43f557bb9be7375662321bb2004e18a0}{\index{U\-I@{U\-I}!validate\-\_\-last\-\_\-name@{validate\-\_\-last\-\_\-name}}
+\index{validate\-\_\-last\-\_\-name@{validate\-\_\-last\-\_\-name}!UI@{U\-I}}
+\subsubsection[{validate\-\_\-last\-\_\-name}]{\setlength{\rightskip}{0pt plus 5cm}bool U\-I\-::validate\-\_\-last\-\_\-name (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{last\-\_\-name, }
+\item[{bool}]{display\-Output}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_u_i_a43f557bb9be7375662321bb2004e18a0}
+
+
+Called to validate that the last name provided by the user is in the right format. 
+
+{\bfseries Details}
+
+This method is called whenever a user has entered a last name input. The method will validate the last name through a series of if and else statements. The methods brings in as a parameter the char$\ast$ last name to be tested.
+
+\begin{DoxyReturn}{Returns}
+Returns a boolean value that will determine if the last name was valid. 
+\end{DoxyReturn}
+\hypertarget{class_u_i_aa250863d60f72a538f4c64dd7c252fc3}{\index{U\-I@{U\-I}!validate\-\_\-program\-\_\-name@{validate\-\_\-program\-\_\-name}}
+\index{validate\-\_\-program\-\_\-name@{validate\-\_\-program\-\_\-name}!UI@{U\-I}}
+\subsubsection[{validate\-\_\-program\-\_\-name}]{\setlength{\rightskip}{0pt plus 5cm}bool U\-I\-::validate\-\_\-program\-\_\-name (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{program\-\_\-name, }
+\item[{bool}]{display\-Output}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_u_i_aa250863d60f72a538f4c64dd7c252fc3}
+
+
+Called to validate that the program nmae provided by the user is in the right format. 
+
+{\bfseries Details}
+
+This method is called whenever a user has entered a program name input. The method will validate the name of the program through a series of if and else statements. The methods brings in as a parameter a char$\ast$ to be tested.
+
+\begin{DoxyReturn}{Returns}
+Returns a bool value that will determine if the program\-\_\-name was valid. 
+\end{DoxyReturn}
+\hypertarget{class_u_i_ab7380eca1ba0c732034bb9cb399b44ea}{\index{U\-I@{U\-I}!validate\-\_\-program\-\_\-type@{validate\-\_\-program\-\_\-type}}
+\index{validate\-\_\-program\-\_\-type@{validate\-\_\-program\-\_\-type}!UI@{U\-I}}
+\subsubsection[{validate\-\_\-program\-\_\-type}]{\setlength{\rightskip}{0pt plus 5cm}int U\-I\-::validate\-\_\-program\-\_\-type (
+\begin{DoxyParamCaption}
+\item[{int}]{prog\-\_\-type, }
+\item[{bool}]{display\-Output}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_u_i_ab7380eca1ba0c732034bb9cb399b44ea}
+
+
+Called to validate that the program type provided by the user is in the right range. 
+
+{\bfseries Details}
+
+This method is called whenever a user has entered an int for the program type. The method will validate the integer through a series of if and else statements. The methods brings in as a parameter an int to be tested. each integer represents a specific program type to set.
+
+\begin{DoxyReturn}{Returns}
+Returns an int value that will determine if the program type was valid. 
+\end{DoxyReturn}
+\hypertarget{class_u_i_a22b503af1e9553884e7b89474060443b}{\index{U\-I@{U\-I}!validate\-\_\-student\-\_\-number@{validate\-\_\-student\-\_\-number}}
+\index{validate\-\_\-student\-\_\-number@{validate\-\_\-student\-\_\-number}!UI@{U\-I}}
+\subsubsection[{validate\-\_\-student\-\_\-number}]{\setlength{\rightskip}{0pt plus 5cm}bool U\-I\-::validate\-\_\-student\-\_\-number (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{student\-\_\-number, }
+\item[{bool}]{display\-Output}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_u_i_a22b503af1e9553884e7b89474060443b}
+
+
+Called to validate that the student number provided by the user is in the right range. 
+
+{\bfseries Details}
+
+This method is called whenever a user has entered a student number input. The method will validate the number through a series of if and else statements. The methods brings in as a parameter a char$\ast$ that contains the number to be tested.
+
+\begin{DoxyReturn}{Returns}
+Returns an bool value that will determine if the number was valid. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+D\-S-\/\-O\-O\-P project/U\-I.\-h\end{DoxyCompactItemize}

@@ -1,0 +1,283 @@
+\hypertarget{classcollege}{\section{college Class Reference}
+\label{classcollege}\index{college@{college}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classcollege_aa91a8b9ef221b96201ef26e9b68a76ce}{college} ()
+\begin{DoxyCompactList}\small\item\em Called to instantiate an object of the college class. \end{DoxyCompactList}\item 
+\hyperlink{classcollege_aa3303b0384171b1234f944a4527b8feb}{$\sim$college} ()
+\begin{DoxyCompactList}\small\item\em Called to destruct an object of the college class. \end{DoxyCompactList}\item 
+void \hyperlink{classcollege_a7d6835463b8181286aca3a612d9d6117}{addstudent} (char first\-\_\-name\mbox{[}$\,$\mbox{]}, char last\-\_\-name\mbox{[}$\,$\mbox{]}, int age\-\_\-int, char gender\mbox{[}$\,$\mbox{]}, int std\-\_\-number, char email\mbox{[}$\,$\mbox{]}, char program\-\_\-name\mbox{[}$\,$\mbox{]}, char program\-\_\-type\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Called to add a new student into the database by setting attributes of a student object. \end{DoxyCompactList}\item 
+void \hyperlink{classcollege_ad0e7e3b582c3e168aec4d6cd9d8be353}{Clear\-Screen} ()
+\begin{DoxyCompactList}\small\item\em Called to clear the screen. \end{DoxyCompactList}\item 
+void \hyperlink{classcollege_a19105be960895106ccfe73613608417e}{Set\-Pos} (int x, int y)
+\begin{DoxyCompactList}\small\item\em Called to set the position of the cursor after the screen is cleared.. \end{DoxyCompactList}\item 
+void \hyperlink{classcollege_aac9c72f720e586ebd1d1f615af6ef99b}{searchstudent} (map$<$ int, \hyperlink{classstudent}{student} $>$ $\ast$v)
+\begin{DoxyCompactList}\small\item\em Called to search a student in the database. \end{DoxyCompactList}\item 
+void \hyperlink{classcollege_a632da2a0b2cb6a0b9771ea3b257fc372}{delete\-\_\-student} (map$<$ int, \hyperlink{classstudent}{student} $>$ $\ast$v2)
+\begin{DoxyCompactList}\small\item\em Called to delete a student in the database. \end{DoxyCompactList}\item 
+void \hyperlink{classcollege_afcf88dcd01476507225badd87a93093a}{delete\-\_\-entire\-\_\-database} (map$<$ int, \hyperlink{classstudent}{student} $>$ $\ast$v4)
+\begin{DoxyCompactList}\small\item\em Called to delete an entire database. \end{DoxyCompactList}\item 
+void \hyperlink{classcollege_a3f706e023efe287c55977e46b871f292}{display\-\_\-entire\-\_\-database} (map$<$ int, \hyperlink{classstudent}{student} $>$ $\ast$v1)
+\begin{DoxyCompactList}\small\item\em Called to display all items in the database. \end{DoxyCompactList}\item 
+void \hyperlink{classcollege_a295ee14be28afece0960ad05fdfc32c3}{save\-To\-Database} (map$<$ int, \hyperlink{classstudent}{student} $>$ v, char $\ast$file\-Name)
+\begin{DoxyCompactList}\small\item\em Called to save a database to a file. \end{DoxyCompactList}\item 
+void \hyperlink{classcollege_ab8a4110db123830691855ebf16e317d1}{load\-\_\-from\-\_\-file} (char file\-\_\-name\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Called to laod a database from a file. \end{DoxyCompactList}\item 
+map$<$ int, \hyperlink{classstudent}{student} $>$ $\ast$ \hyperlink{classcollege_aac75ca58604733962040937122ebbe0b}{get\-\_\-map} ()
+\begin{DoxyCompactList}\small\item\em Called to get the address database. \end{DoxyCompactList}\item 
+\hyperlink{classstudent}{student} \hyperlink{classcollege_ac77564cda101bd33abddd3322252d35f}{random\-Studentcreator} (void)
+\begin{DoxyCompactList}\small\item\em Called to generate random data for a student object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classcollege_aa91a8b9ef221b96201ef26e9b68a76ce}{\index{college@{college}!college@{college}}
+\index{college@{college}!college@{college}}
+\subsubsection[{college}]{\setlength{\rightskip}{0pt plus 5cm}college\-::college (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classcollege_aa91a8b9ef221b96201ef26e9b68a76ce}
+
+
+Called to instantiate an object of the college class. 
+
+{\bfseries Details}
+
+This method will create a college object which will be used to access all the class functions. The method will instantiate all if any attributes of the class to a null value.
+
+\begin{DoxyReturn}{Returns}
+Returns nothing since this is a constructor. 
+\end{DoxyReturn}
+\hypertarget{classcollege_aa3303b0384171b1234f944a4527b8feb}{\index{college@{college}!$\sim$college@{$\sim$college}}
+\index{$\sim$college@{$\sim$college}!college@{college}}
+\subsubsection[{$\sim$college}]{\setlength{\rightskip}{0pt plus 5cm}college\-::$\sim$college (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classcollege_aa3303b0384171b1234f944a4527b8feb}
+
+
+Called to destruct an object of the college class. 
+
+{\bfseries Details}
+
+This method will destruct a college object which is used to access all the class functions. \begin{DoxyReturn}{Returns}
+Returns nothing since this is a destructor. 
+\end{DoxyReturn}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classcollege_a7d6835463b8181286aca3a612d9d6117}{\index{college@{college}!addstudent@{addstudent}}
+\index{addstudent@{addstudent}!college@{college}}
+\subsubsection[{addstudent}]{\setlength{\rightskip}{0pt plus 5cm}void college\-::addstudent (
+\begin{DoxyParamCaption}
+\item[{char}]{first\-\_\-name\mbox{[}$\,$\mbox{]}, }
+\item[{char}]{last\-\_\-name\mbox{[}$\,$\mbox{]}, }
+\item[{int}]{age\-\_\-int, }
+\item[{char}]{gender\mbox{[}$\,$\mbox{]}, }
+\item[{int}]{std\-\_\-number, }
+\item[{char}]{email\mbox{[}$\,$\mbox{]}, }
+\item[{char}]{program\-\_\-name\mbox{[}$\,$\mbox{]}, }
+\item[{char}]{program\-\_\-type\mbox{[}$\,$\mbox{]}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classcollege_a7d6835463b8181286aca3a612d9d6117}
+
+
+Called to add a new student into the database by setting attributes of a student object. 
+
+{\bfseries Details}
+
+This method is called whenever a the user choose to add a new student. It will initialize of the data members of the student that is going to be added. this function is called after input validation is done. The method is brings all the attributes of the student object and calls setters to set those attributes for the student object.
+
+\begin{DoxyReturn}{Returns}
+Returns nothing. 
+\end{DoxyReturn}
+\hypertarget{classcollege_ad0e7e3b582c3e168aec4d6cd9d8be353}{\index{college@{college}!Clear\-Screen@{Clear\-Screen}}
+\index{Clear\-Screen@{Clear\-Screen}!college@{college}}
+\subsubsection[{Clear\-Screen}]{\setlength{\rightskip}{0pt plus 5cm}void college\-::\-Clear\-Screen (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classcollege_ad0e7e3b582c3e168aec4d6cd9d8be353}
+
+
+Called to clear the screen. 
+
+{\bfseries Details}
+
+This method clear an ammount of rows and columns.
+
+\begin{DoxyReturn}{Returns}
+Returns nothing. 
+\end{DoxyReturn}
+\hypertarget{classcollege_afcf88dcd01476507225badd87a93093a}{\index{college@{college}!delete\-\_\-entire\-\_\-database@{delete\-\_\-entire\-\_\-database}}
+\index{delete\-\_\-entire\-\_\-database@{delete\-\_\-entire\-\_\-database}!college@{college}}
+\subsubsection[{delete\-\_\-entire\-\_\-database}]{\setlength{\rightskip}{0pt plus 5cm}void college\-::delete\-\_\-entire\-\_\-database (
+\begin{DoxyParamCaption}
+\item[{map$<$ int, {\bf student} $>$ $\ast$}]{v4}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classcollege_afcf88dcd01476507225badd87a93093a}
+
+
+Called to delete an entire database. 
+
+{\bfseries Details}
+
+This method is called whenever the user choose to delete an entire database. It receives a database as an input parameter that will be deleted.
+
+\begin{DoxyReturn}{Returns}
+Returns nothing. 
+\end{DoxyReturn}
+\hypertarget{classcollege_a632da2a0b2cb6a0b9771ea3b257fc372}{\index{college@{college}!delete\-\_\-student@{delete\-\_\-student}}
+\index{delete\-\_\-student@{delete\-\_\-student}!college@{college}}
+\subsubsection[{delete\-\_\-student}]{\setlength{\rightskip}{0pt plus 5cm}void college\-::delete\-\_\-student (
+\begin{DoxyParamCaption}
+\item[{map$<$ int, {\bf student} $>$ $\ast$}]{v2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classcollege_a632da2a0b2cb6a0b9771ea3b257fc372}
+
+
+Called to delete a student in the database. 
+
+{\bfseries Details}
+
+This method is called whenever the user choose to delete a student. It receives a database as an input parameter that will be searched. The search is done by the student's number. Once the search is completed, the student's data is deleted.
+
+\begin{DoxyReturn}{Returns}
+Returns nothing. 
+\end{DoxyReturn}
+\hypertarget{classcollege_a3f706e023efe287c55977e46b871f292}{\index{college@{college}!display\-\_\-entire\-\_\-database@{display\-\_\-entire\-\_\-database}}
+\index{display\-\_\-entire\-\_\-database@{display\-\_\-entire\-\_\-database}!college@{college}}
+\subsubsection[{display\-\_\-entire\-\_\-database}]{\setlength{\rightskip}{0pt plus 5cm}void college\-::display\-\_\-entire\-\_\-database (
+\begin{DoxyParamCaption}
+\item[{map$<$ int, {\bf student} $>$ $\ast$}]{v1}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classcollege_a3f706e023efe287c55977e46b871f292}
+
+
+Called to display all items in the database. 
+
+{\bfseries Details}
+
+This method is called whenever the user choose to display a databese. It receives a database as an input parameter that will be displayed. Once received, the databased is traversed and all items are displayed one by one.
+
+\begin{DoxyReturn}{Returns}
+Returns nothing. 
+\end{DoxyReturn}
+\hypertarget{classcollege_aac75ca58604733962040937122ebbe0b}{\index{college@{college}!get\-\_\-map@{get\-\_\-map}}
+\index{get\-\_\-map@{get\-\_\-map}!college@{college}}
+\subsubsection[{get\-\_\-map}]{\setlength{\rightskip}{0pt plus 5cm}map$<$ int, {\bf student} $>$ $\ast$ college\-::get\-\_\-map (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classcollege_aac75ca58604733962040937122ebbe0b}
+
+
+Called to get the address database. 
+
+{\bfseries Details}
+
+This methods accesses the map container in the private data members and returns its address.
+
+\begin{DoxyReturn}{Returns}
+Returns a map $\ast$ that holds all the items in the database. 
+\end{DoxyReturn}
+\hypertarget{classcollege_ab8a4110db123830691855ebf16e317d1}{\index{college@{college}!load\-\_\-from\-\_\-file@{load\-\_\-from\-\_\-file}}
+\index{load\-\_\-from\-\_\-file@{load\-\_\-from\-\_\-file}!college@{college}}
+\subsubsection[{load\-\_\-from\-\_\-file}]{\setlength{\rightskip}{0pt plus 5cm}void college\-::load\-\_\-from\-\_\-file (
+\begin{DoxyParamCaption}
+\item[{char}]{file\-\_\-name\mbox{[}$\,$\mbox{]}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classcollege_ab8a4110db123830691855ebf16e317d1}
+
+
+Called to laod a database from a file. 
+
+{\bfseries Details}
+
+This method is called whenever the user choose to laod the database from a file. It receives a char$\ast$ that contains the name of the input file that the databse will be laoded from. The program opens a text file for reading and reads all the fields of the objects in the database in from the text file. Once done, the file is closed.
+
+\begin{DoxyReturn}{Returns}
+Returns nothing. 
+\end{DoxyReturn}
+\hypertarget{classcollege_ac77564cda101bd33abddd3322252d35f}{\index{college@{college}!random\-Studentcreator@{random\-Studentcreator}}
+\index{random\-Studentcreator@{random\-Studentcreator}!college@{college}}
+\subsubsection[{random\-Studentcreator}]{\setlength{\rightskip}{0pt plus 5cm}{\bf student} college\-::random\-Studentcreator (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classcollege_ac77564cda101bd33abddd3322252d35f}
+
+
+Called to generate random data for a student object. 
+
+{\bfseries Details}
+
+This method is called whenever a user wants to generate a desired amount of random students that have random data in their fields. it will generate random data for all the fields of the object. After, the method will call add student with the specific fields provided.
+
+\begin{DoxyReturn}{Returns}
+Returns the student object created.. 
+\end{DoxyReturn}
+\hypertarget{classcollege_a295ee14be28afece0960ad05fdfc32c3}{\index{college@{college}!save\-To\-Database@{save\-To\-Database}}
+\index{save\-To\-Database@{save\-To\-Database}!college@{college}}
+\subsubsection[{save\-To\-Database}]{\setlength{\rightskip}{0pt plus 5cm}void college\-::save\-To\-Database (
+\begin{DoxyParamCaption}
+\item[{map$<$ int, {\bf student} $>$}]{v, }
+\item[{char $\ast$}]{file\-Name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classcollege_a295ee14be28afece0960ad05fdfc32c3}
+
+
+Called to save a database to a file. 
+
+{\bfseries Details}
+
+This method is called whenever the user choose to exit the program. It receives a database as an input parameter that will be saved to a file, and char$\ast$ that contains the name of the output file that the databse will be saved to. The program creates and opens a text file for writing and outputs all the fields of the objects in the database into the text file. Once done, the file is closed.
+
+\begin{DoxyReturn}{Returns}
+Returns nothing. 
+\end{DoxyReturn}
+\hypertarget{classcollege_aac9c72f720e586ebd1d1f615af6ef99b}{\index{college@{college}!searchstudent@{searchstudent}}
+\index{searchstudent@{searchstudent}!college@{college}}
+\subsubsection[{searchstudent}]{\setlength{\rightskip}{0pt plus 5cm}void college\-::searchstudent (
+\begin{DoxyParamCaption}
+\item[{map$<$ int, {\bf student} $>$ $\ast$}]{v}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classcollege_aac9c72f720e586ebd1d1f615af6ef99b}
+
+
+Called to search a student in the database. 
+
+{\bfseries Details}
+
+This method is called whenever a the user choose to search a student. It recieves a database as an input parameter that will be searched. The search is done by the student's number. Once the search is completed, the information is displayed.
+
+\begin{DoxyReturn}{Returns}
+Returns nothing. 
+\end{DoxyReturn}
+\hypertarget{classcollege_a19105be960895106ccfe73613608417e}{\index{college@{college}!Set\-Pos@{Set\-Pos}}
+\index{Set\-Pos@{Set\-Pos}!college@{college}}
+\subsubsection[{Set\-Pos}]{\setlength{\rightskip}{0pt plus 5cm}void college\-::\-Set\-Pos (
+\begin{DoxyParamCaption}
+\item[{int}]{x, }
+\item[{int}]{y}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classcollege_a19105be960895106ccfe73613608417e}
+
+
+Called to set the position of the cursor after the screen is cleared.. 
+
+{\bfseries Details}
+
+This method sets the cursor back to a specific position. This position is received as parameters x, y. \begin{DoxyReturn}{Returns}
+Returns nothing. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+D\-S-\/\-O\-O\-P project/college.\-h\item 
+D\-S-\/\-O\-O\-P project/college.\-cpp\end{DoxyCompactItemize}
